@@ -13,11 +13,11 @@ def start(bot=mi_bot,update=mi_bot_updater):
     bot.sendMessage(chat_id=update.message.chat_id, text="¿Que onda Campero?, preguntame tus dudas")
     
 def ayuda(bot=mi_bot, update=mi_bot_updater):  
-    print ('Solicita ayuda')
+    print ('Solicita ayuda.')
     bot.sendMessage(chat_id=update.message.chat_id, text="No tengo mucho que ofrecerte por ahora")
 
 def easterrandom(bot=mi_bot, update=mi_bot_updater):
-    print ('Easter random')
+    print ('Easter random.')
     bot.sendMessage(chat_id=update.message.chat_id, text="¡Aquí te va un easter aleatorio!, ve a la torre de agua del mapa mar rojo, ¡Avisame cuando estes ahí!")
     
 
