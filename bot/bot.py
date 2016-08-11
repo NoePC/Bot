@@ -20,17 +20,22 @@ def easterrandom(bot=mi_bot, update=mi_bot_updater):
     print ('Easter random')
     bot.sendMessage(chat_id=update.message.chat_id, text="¡Aquí te va un easter aleatorio!, ve a la torre de agua del mapa mar rojo, ¡Avisame cuando estes ahí!")
     
+def cualeaster(bot=mi_bot, update=mi_bot_updater):
+    print('Pregunta que EE va a hacer')
+    bot.sendMessage(chat_id=update.message.chat_id, text="¿Qué EE vas a realizar?")  
 
 #Definimos para cada comando la función que atendera la peticion
 start_handler = CommandHandler('start', start)  
 ayuda_handler = CommandHandler('?', ayuda) 
 easterrandom_handler = CommandHandler('easterrandom', easterrandom)
+cualeaster_handler = CommandHandler('cualeaster', cualeaster)
 
 dispatcher = mi_bot_updater.dispatcher
 
 dispatcher.add_handler(start_handler)  
 dispatcher.add_handler(ayuda_handler)
 dispatcher.add_handler(easterrandom_handler)
+dispatcher.add_handler(cualeaster_handler)
 
 mi_bot_updater.start_polling()
 
