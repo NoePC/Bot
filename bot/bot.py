@@ -28,12 +28,14 @@ def cualeaster(bot=mi_bot, update=mi_bot_updater):
 start_handler = CommandHandler('start', start)  
 ayuda_handler = CommandHandler('?', ayuda) 
 easterrandom_handler = CommandHandler('easterrandom', easterrandom)
+cualeaster_handler = CommandHandler('cualeaster', cualeaster)
 
 dispatcher = mi_bot_updater.dispatcher
 
 dispatcher.add_handler(start_handler)  
 dispatcher.add_handler(ayuda_handler)
 dispatcher.add_handler(easterrandom_handler)
+dispatcher.add_handler(cualeaster_handler)
 
 mi_bot_updater.start_polling()
 
