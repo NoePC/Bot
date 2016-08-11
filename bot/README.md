@@ -7,12 +7,11 @@
     ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
+Telegram Bot Powered by Cloud9IDE.
+This bot was developed by RaptorsArts Corp for a Telegram contest.
+@Call_of_Bot can be very useful to help you in Call of Duty Zombies EasterEggs,
+could be incredible but you can ask about something and the bot are going to 
+response you with the answer.
+At the moment we support only the Easter Eggs included in The Giant Map.
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+Enjoy it!
